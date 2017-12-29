@@ -63,6 +63,8 @@
         <cas-person-version>1.8.0</cas-person-version>
         <shiro-version>1.2.5</shiro-version>
 
+        <dbutils.version>1.6</dbutils.version>
+
     </properties>
 
 
@@ -352,6 +354,11 @@
                 <groupId>com.github.colin-lee</groupId>
                 <artifactId>jedis-spring-support</artifactId>
                 <version>${jedis-spring-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-dbutils</groupId>
+                <artifactId>commons-dbutils</artifactId>
+                <version>${dbutils.version}</version>
             </dependency>
             <!-- DATA -->
             <dependency>
